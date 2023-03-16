@@ -2,18 +2,18 @@
 A collection of best pratices
 
 Version: 0.1
+
 Updated at: 2023-03-16
 
 ## Table of Contents
   - 1 . Scalafmt
     - 1.1 Definition
     - 1.2 Configuration
+    - 1.3 Implementation on IntelliJ
   - 2 . Scalastyle
     - 2.1 Definition
     - 2.2 Configuration
-  - 3 . Implementations of scalafmt + scalastyle on Intellij
-    - 3.1 scalafmt
-    - 3.2 scalastyle
+    - 2.3 Implementation on Intellij
   - 4 . How to enabled or disabled rules
   - 5 . Languages Rules
     - 5.1. MUST NOT use "return"
