@@ -1,6 +1,6 @@
-# 1. scalafmt
+# 2. scalafmt
 
-## 1.1 Definition
+## 2.1 Definition
 
 Scalastyle examines your Scala code and indicates potential problems with it.
 Based on rules, it examines your Scala code and points out potential problems with it. 
@@ -16,7 +16,7 @@ __Pros__:
 - Configurable & Possibility to add your own rules
 - Several ways to use it: Maven plugin, SBT plugin, command line, Intellij...
 
-## 1.2 Configuration
+## 2.2 Configuration
 
 scalastyle:check performs a violation check against the scalastyle config file to see if there are any violations. It counts the number of violations found and displays it on the console if verbose is enabled.
 
@@ -81,5 +81,5 @@ You can also specify multiple source directories if necessary. Replace the <sour
     </sourceDirectories>
 ```
 
-and similarly for <testSourceDirectory> & <testSourceDirectories>.
+and similarly for < testSourceDirectory> & < testSourceDirectories>.
 

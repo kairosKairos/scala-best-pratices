@@ -1,6 +1,6 @@
-# 1. scalastyle 
+## 1. scalafmt 
 
-## 1.1 Definition
+### 1.1 Definition
 
 It is a tool that allows you to format your code so that it is consistent between team members.
 
@@ -16,16 +16,18 @@ __Cons__:
 - Non-idempotent
 - Code profondement imbriqué
 
-## 1.2 Configuration
+### 1.2 Configuration
 
 Configuration for scalafmt is defined in a plain text file .scalafmt.conf using HOCON syntax.
 
 Here is an example .scalafmt.conf:
 
-`align.preset = more    // For pretty alignment.
-maxColumn = 100 // For my wide 30" display.`
+```
+align.preset = more    // For pretty alignment.
+maxColumn = 100 // For my wide 30" display.
+```
 
-## 1.3 Implementation of scalafmt on IntelliJ
+### 1.3 Implementation on IntelliJ
 
 The Scala plugin compatible with recent versions of IntelliJ IDEA has built-in support for Scalafmt (see Note below). DO NOT install the deprecated Scalafmt plugin unless you have an older version of Intellij.
 
@@ -37,7 +39,7 @@ Choose the scalafmt formatter and IntelliJ's Reformat Code action will then use 
 
 ***Note: IntelliJ 2019.1 or later is required in order for the Scala plugin to support Scalafmt and the dynamic version set in your .scalafmt.conf. If you must use an older version, see the FAQ for an alternative.***
 
-### Format current file
+#### Format current file
 
 Opt + cmd + L (macOs)
 Crtl + Alt + L (Other)
@@ -46,16 +48,16 @@ To re-configure the shortcut:
 - Open Preferences > Keymap
 - Search for "Reformat Code"
 
-#### Range formatting
+##### Range formatting
 Scalafmt is primarily designed to operate on entire text files—formatting selected ranges of code may produce undesirable results. For this reason, IntelliJ uses its own formatter for ranges by default. It is not recommended to change this, and is instead recommended to format files when saving.
 
-### Format on save
+#### Format on save
 - for the current project (recommended): Preferences > Editor > Code Style > Scala
 - for all new projects: File > Other Settings > Preferences for New Projects… > Editor > Code Style > Scala
 
 ![IMAGE](/repository/assets/employee.png?raw=true "IMAGE")
 
-### Resume using IntelliJ formatter
+#### Resume using IntelliJ formatter
 To reset the formatter to IntelliJ for an existing project that uses the Scalafmt formatter:
 
 - Open Preferences > Editor > Code Style > Scala
@@ -63,12 +65,14 @@ To reset the formatter to IntelliJ for an existing project that uses the Scalafm
 
 It is not possible to reset this setting for all existing projects.
 
-### SBT
+#### SBT
 
 NB: keep in mind that versions of scalafmt-core and sbt-scalafmt are released independently, their versions do not align. The version of scalafmt-core is defined in the .scalafmt.conf configuration file and downloaded dynamically.
 
-`// In project/plugins.sbt. Note, does not support sbt 0.13, only sbt 1.x.
-addSbtPlugin("org.scalameta" % "sbt-scalafmt" % SBT_PLUGIN_VERSION)`
+```
+// In project/plugins.sbt. Note, does not support sbt 0.13, only sbt 1.x.
+addSbtPlugin("org.scalameta" % "sbt-scalafmt" % SBT_PLUGIN_VERSION)
+```
 
 Latest published version of the sbt plugin:Maven Central
 
