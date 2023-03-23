@@ -1,5 +1,4 @@
-# scala-best-pratices
-A collection of best pratices
+# scala-linting
 
 Version: 0.1
 
