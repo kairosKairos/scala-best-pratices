@@ -14,13 +14,4 @@ Updated at: 2023-03-16
     - [2.1 Definition](sections/scalastyle.md#21-definition)
     - [2.2 Configuration](sections/scalastyle.md#22-configuration)
     - [2.3 Implementation on Intellij](sections/scalastyle.md#23-implementation-on-intellij)
-  - [4 . Quick Overview scalastyle + scalafmt on IntelliJ](https://youtu.be/6f7AKfgYsP0)
-  - [3 . Basics Rules and Implementation on Intellij](https://youtu.be/6f7AKfgYsP0)
-    - [3 . SHOULD enforce a reasonable line length](https://youtu.be/6f7AKfgYsP0)
-    - [3 . Basics Rules and Implementation on Intellij](https://youtu.be/6f7AKfgYsP0)
-    - [3 . Basics Rules and Implementation on Intellij](https://youtu.be/6f7AKfgYsP0)
-    - [3 . Basics Rules and Implementation on Intellij](https://youtu.be/6f7AKfgYsP0)
-    - [3 . Basics Rules and Implementation on Intellij](https://youtu.be/6f7AKfgYsP0)    
-
-  - [5. Language Rules](https://youtu.be/6f7AKfgYsP0)
-  
+  - [3 . Quick Overview scalastyle + scalafmt on IntelliJ](https://youtu.be/6f7AKfgYsP0)
