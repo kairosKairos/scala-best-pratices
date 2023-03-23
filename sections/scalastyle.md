@@ -1,4 +1,7 @@
-# 2. scalafmt
+# 2. scalastyle
+
+__For more details about this section, go to scalafmt documetation http://www.scalastyle.org/__
+
 
 ## 2.1 Definition
 
